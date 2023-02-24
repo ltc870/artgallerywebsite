@@ -1,3 +1,14 @@
+/*! MOBILE VIEW  */
+
+/* TYPOGRAPHY  */
+.mainTitle {
+    font-size: 3.125rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    color: #151515; 
+}
+
 .mainContainer {
     margin: 0 auto;
 }
