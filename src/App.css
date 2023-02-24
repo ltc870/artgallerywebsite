@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1110px) {
+
+}

@@ -1,0 +1,38 @@
+/*! MOBILE VIEW  */
+
+/*$ TYPOGRAPHY */
+.headerTitle {
+    font-size: 3.75rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    line-height: 55px;
+    color: #151515;
+}
+
+.headerText {
+    font-size: 1.125rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    color: #444444;
+}
+
+/*$ LAYOUT */
+
+.headerContainer {
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 8em;
+}
+
+.headerHeroImage {
+    width: 100%
+}
+
+.headerTitle {
+    margin-top: .15em;
+}
+
+.headerText {
+    margin-bottom: 1.5em;
+}

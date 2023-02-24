@@ -1,0 +1,46 @@
+/* TYPOGRAPHY */
+
+.link {
+    text-decoration: none;
+}
+
+.linkText {
+    letter-spacing: 3.64px;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.linkArrow {
+    font-size: 1.25rem;
+}
+
+/* LAYOUT */
+
+.link {
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-start;
+}
+
+.linkText {
+    background-color: #151515;
+    color: #FFFFFF;
+    padding: 1em 1.5em;
+}
+
+.linkArrow {
+    background-color: #D5966C;
+    padding: 1.012em 1.20em;
+}
+
+.link:hover .linkText {
+    background-color: #D5966C
+}
+
+.link:hover .linkArrow {
+    background-color: #151515;
+}
+
+
+
+

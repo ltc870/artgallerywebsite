@@ -1,0 +1,14 @@
+.mainContainer {
+    margin: 0 auto;
+}
+
+.mainSmallGrid {
+    display: grid;
+    margin: 0 auto;
+}
+
+.mainImgOne {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+}
