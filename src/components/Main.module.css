@@ -9,17 +9,54 @@
     color: #151515; 
 }
 
+.mainText {
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+    color: #444444;
+    font-size: 1.125rem;
+    line-height: 28px;
+}
+
+.mainSubtitle {
+    font-weight: 900;
+    font-size: 3.125rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+.mainSubtext{
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.125rem;
+    line-height: 28px;
+}
+
+/* LAYOUT  */
+
 .mainContainer {
     margin: 0 auto;
+    padding: 1em;
 }
 
 .mainSmallGrid {
     display: grid;
-    margin: 0 auto;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 25px;
 }
 
 .mainImgOne {
     margin: 0 auto;
     display: block;
-    width: 90%;
+}
+
+.mainTitle {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.mainSubtextContainer {
+    background-color: #151515;
+    padding: 2em 1em;
 }
