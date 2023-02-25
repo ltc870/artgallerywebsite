@@ -84,16 +84,14 @@ const Main = () => {
                         className={classes.mainImgThree}
                     />
                 </picture>
-                <div className={classes.mainSubtextSection}>
-                    <div className={classes.mainSubtextContainer}>
-                        <h2 className={classes.mainSubtitle}>
-                            Come &amp; be inspired
-                        </h2>
-                        <p className={classes.mainSubtext}>
-                            We’re excited to welcome you to our gallery and see
-                            how our collections influence you.
-                        </p>
-                    </div>
+                <div className={classes.mainSubtextContainer}>
+                    <h2 className={classes.mainSubtitle}>
+                        Come &amp; be inspired
+                    </h2>
+                    <p className={classes.mainSubtext}>
+                        We’re excited to welcome you to our gallery and see
+                        how our collections influence you.
+                    </p>
                 </div>
             </div>
         </main>
