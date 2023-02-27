@@ -24,6 +24,8 @@
     text-transform: uppercase;
     line-height: 45px;
     color: #FFFFFF;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .mainSubtext{
@@ -58,7 +60,24 @@
     margin-bottom: .5em;
 }
 
+.mainBigGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+.mainImgTwo {
+    margin: 0 auto;
+    display: block;
+}
+
+.mainImgThree {
+    margin: 0 auto;
+    display: block;
+}
+
 .mainSubtextContainer {
     background-color: #151515;
-    padding: 2em 1em;
+    padding: 1em 1.5em;
 }
