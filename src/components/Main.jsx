@@ -52,7 +52,7 @@ const Main = () => {
                 </div>
             </div>
             <div className={classes.mainBigGrid}>
-                <picture className={classes.mainImgTwoPic}>
+                <picture>
                     <source
                         media="(min-width: 1110px)"
                         srcSet={`${desktopImage2}, ${desktopImage22}`}
