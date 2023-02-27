@@ -6,6 +6,8 @@ import {
     faTwitter,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import darkLogo from "../assets/logo-dark.svg";
+import lightLogo from "../assets/logo-light.svg";
 
 const Footer = (props) => {
     const { homePageLocation } = props;
@@ -17,10 +19,8 @@ const Footer = (props) => {
             }
         >
             <div className={classes.footerContainer}>
-                <h3 className={classes.footerTitle}>
-                    Modern <br />
-                    Art Gallery
-                </h3>
+                <img className={homePageLocation ? classes.lightLogo : classes.darkLogo} 
+                     src={homePageLocation ? lightLogo : darkLogo} alt="Footer logo" />
                 <p className={classes.footerText}>
                     The Modern Art Gallery is free to all visitors and open
                     seven days a week from 8am to 9pm. Find us at 99 King
