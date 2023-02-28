@@ -53,6 +53,7 @@
 .mainImgOne {
     margin: 0 auto;
     display: block;
+    width: 100%;
 }
 
 .mainTitle {
@@ -70,11 +71,13 @@
 .mainImgTwo {
     margin: 0 auto;
     display: block;
+    width: 100%
 }
 
 .mainImgThree {
     margin: 0 auto;
     display: block;
+    width: 100%
 }
 
 .mainSubtextContainer {
