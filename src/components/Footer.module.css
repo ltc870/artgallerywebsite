@@ -33,3 +33,30 @@
     width: 30%;
     justify-content: space-between;
 }
+
+/*! TABLET VIEW  */
+
+@media (min-width: 768px) {
+    /* lAYOUT */
+
+   .footerContainer {
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, auto);
+        align-items: flex-start;
+   } 
+
+   .lightLogo {
+        margin-right: 3em
+   }
+
+   .footerText {
+        margin-top: 0;
+        width: 65%;
+   }
+
+   .footerSocialMedia {
+        width: 100%;
+        margin-right: 2em;
+   }
+
+}
