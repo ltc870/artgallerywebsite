@@ -96,3 +96,44 @@
 .mainSubtext {
     margin-top: 0
 }
+
+/*! TABLET VIEW */
+
+@media (min-width: 768px) {
+    /* LAYOUT */
+
+    .mainContainer {
+        padding: 1em 2em;
+    }
+
+    .mainSmallGrid {
+        grid-template-columns: 1fr auto;
+        row-gap: 0;
+        grid-template-rows: auto;
+        column-gap: 4.25em;
+        margin-bottom: .75em;
+    }
+
+    .mainTextContainer {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .mainTitle {
+        width: 80%;
+    }
+
+    .mainPicOne {
+        grid-column: 2 / 3;
+    }
+
+    .mainImgOne {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .mainTextContainer {
+        align-self: center;
+    }
+
+}
