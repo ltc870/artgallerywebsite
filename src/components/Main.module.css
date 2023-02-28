@@ -80,4 +80,16 @@
 .mainSubtextContainer {
     background-color: #151515;
     padding: 1em 1.5em;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+}
+
+.mainSubtitle {
+    margin-bottom: 0;
+}
+
+.mainSubtext {
+    margin-top: 0
 }
