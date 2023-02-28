@@ -139,6 +139,7 @@
     .mainBigGrid {
         grid-template-columns: 1.427fr 1fr;
         grid-template-rows: repeat(2, auto);
+        gap: 12px;
     }
 
     .mainPicTwo {
