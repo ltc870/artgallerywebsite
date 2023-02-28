@@ -19,83 +19,76 @@ import desktopImage32 from "../assets/desktop/image-grid-3@2x.jpg";
 import classes from "./Main.module.css";
 
 const Main = () => {
-    return (
-        <main className={classes.mainContainer}>
-            <div className={classes.mainSmallGrid}>
-                <picture>
-                    <source
-                        media="(min-width: 1110px)"
-                        srcSet={`${desktopImage1}, ${desktopImage12}`}
-                    />
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet={`${tabletImage1}, ${tabletImage12}`}
-                    />
-                    <img
-                        srcSet={`${mobileImage1}, ${mobileImage12}`}
-                        src={mobileImage1}
-                        alt="An Indigenous Art Gallery."
-                        className={classes.mainImgOne}
-                    />
-                </picture>
-                <div className={classes.mainTextContainer}>
-                    <div className={classes.textContainer}>
-                        <h2 className={classes.mainTitle}>
-                            Your day at the gallery
-                        </h2>
-                        <p className={classes.mainText}>
-                            Wander through our distinct collections and find new
-                            insights about our artists. Dive into the details of
-                            their creative process.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className={classes.mainBigGrid}>
-                <picture>
-                    <source
-                        media="(min-width: 1110px)"
-                        srcSet={`${desktopImage2}, ${desktopImage22}`}
-                    />
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet={`${tabletImage2}, ${tabletImage22}`}
-                    />
-                    <img
-                        srcSet={`${mobileImage2}, ${mobileImage22}`}
-                        src={mobileImage2}
-                        alt="A bench in front of a picture"
-                        className={classes.mainImgTwo}
-                    />
-                </picture>
-                <picture className={classes.mainImgThreePic}>
-                    <source
-                        media="(min-width: 1110px)"
-                        srcSet={`${desktopImage3}, ${desktopImage32}`}
-                    />
-                    <source
-                        media="(min-width: 768px)"
-                        srcSet={`${tabletImage3}, ${tabletImage32}`}
-                    />
-                    <img
-                        srcSet={`${mobileImage3}, ${mobileImage32}`}
-                        src={mobileImage3}
-                        alt="People within the art gallery looking at pictures."
-                        className={classes.mainImgThree}
-                    />
-                </picture>
-                <div className={classes.mainSubtextContainer}>
-                    <h2 className={classes.mainSubtitle}>
-                        Come &amp; be inspired
-                    </h2>
-                    <p className={classes.mainSubtext}>
-                        We’re excited to welcome you to our gallery and see
-                        how our collections influence you.
-                    </p>
-                </div>
-            </div>
-        </main>
-    );
+  return (
+    <main className={classes.mainContainer}>
+      <div className={classes.mainSmallGrid}>
+        <picture className={classes.mainPicOne}>
+          <source
+            media="(min-width: 1110px)"
+            srcSet={`${desktopImage1}, ${desktopImage12} 2x`}
+          />
+          <source
+            media="(min-width: 768px)"
+            srcSet={`${tabletImage1}, ${tabletImage12} 2x`}
+          />
+          <img
+            srcSet={`${mobileImage1}, ${mobileImage12} 2x`}
+            src={mobileImage1}
+            alt="An Indigenous Art Gallery."
+            className={classes.mainImgOne}
+          />
+        </picture>
+        <div className={classes.mainTextContainer}>
+          <h2 className={classes.mainTitle}>Your day at the gallery</h2>
+          <p className={classes.mainText}>
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </p>
+        </div>
+      </div>
+      <div className={classes.mainBigGrid}>
+        <picture>
+          <source
+            media="(min-width: 1110px)"
+            srcSet={`${desktopImage2}, ${desktopImage22}`}
+          />
+          <source
+            media="(min-width: 768px)"
+            srcSet={`${tabletImage2}, ${tabletImage22}`}
+          />
+          <img
+            srcSet={`${mobileImage2}, ${mobileImage22}`}
+            src={mobileImage2}
+            alt="A bench in front of a picture"
+            className={classes.mainImgTwo}
+          />
+        </picture>
+        <picture className={classes.mainImgThreePic}>
+          <source
+            media="(min-width: 1110px)"
+            srcSet={`${desktopImage3}, ${desktopImage32}`}
+          />
+          <source
+            media="(min-width: 768px)"
+            srcSet={`${tabletImage3}, ${tabletImage32}`}
+          />
+          <img
+            srcSet={`${mobileImage3}, ${mobileImage32}`}
+            src={mobileImage3}
+            alt="People within the art gallery looking at pictures."
+            className={classes.mainImgThree}
+          />
+        </picture>
+        <div className={classes.mainSubtextContainer}>
+          <h2 className={classes.mainSubtitle}>Come &amp; be inspired</h2>
+          <p className={classes.mainSubtext}>
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </p>
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default Main;
