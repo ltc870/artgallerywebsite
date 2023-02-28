@@ -136,4 +136,31 @@
         align-self: center;
     }
 
+    .mainBigGrid {
+        grid-template-columns: 1.427fr 1fr;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .mainPicTwo {
+        grid-row: 1 / 3;
+    }
+
+    .mainImgTwo {
+        display: block;
+    }
+
+    .mainImgThree {
+        height: 100%;
+    }
+
+    .mainSubtextContainer {
+        grid-column: 2 / 3;
+        row-gap: 30px;
+        padding: 3em 2em; 
+    }
+
+    .mainSubtitle {
+        align-self: flex-end;
+    }
+    
 }
