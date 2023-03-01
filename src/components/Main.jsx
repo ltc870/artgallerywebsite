@@ -24,7 +24,7 @@ const Main = () => {
       <div className={classes.mainSmallGrid}>
         <picture className={classes.mainPicOne}>
           <source
-            media="(min-width: 1110px)"
+            media="(min-width: 1024px)"
             srcSet={`${desktopImage1}, ${desktopImage12} 2x`}
           />
           <source
@@ -49,7 +49,7 @@ const Main = () => {
       <div className={classes.mainBigGrid}>
         <picture className={classes.mainPicTwo}>
           <source
-            media="(min-width: 1110px)"
+            media="(min-width: 1024px)"
             srcSet={`${desktopImage2}, ${desktopImage22}`}
           />
           <source
@@ -65,7 +65,7 @@ const Main = () => {
         </picture>
         <picture className={classes.mainImgThreePic}>
           <source
-            media="(min-width: 1110px)"
+            media="(min-width: 1024px)"
             srcSet={`${desktopImage3}, ${desktopImage32}`}
           />
           <source
