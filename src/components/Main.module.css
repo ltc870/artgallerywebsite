@@ -165,3 +165,23 @@
     }
     
 }
+
+/*! DESKTOP VIEW  */
+
+@media (min-width: 1024px) {
+    /* TYPOGRAPHY */
+    .mainTitle,
+    .mainSubtitle {
+        font-size: 3.75rem;
+        line-height: 60px;
+    }
+
+    .mainText,
+    .mainSubtext {
+        font-size: 1.375rem;
+        line-height: 32px;
+    }
+
+    /* LAYOUT */
+    
+}
