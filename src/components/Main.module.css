@@ -147,11 +147,13 @@
     }
 
     .mainImgTwo {
-        display: block;
+        height: 100%;
+        object-fit: cover;
     }
 
     .mainImgThree {
         height: 100%;
+        object-fit: cover;
     }
 
     .mainSubtextContainer {
@@ -183,5 +185,5 @@
     }
 
     /* LAYOUT */
-    
+
 }
