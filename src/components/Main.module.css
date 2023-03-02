@@ -186,4 +186,19 @@
 
     /* LAYOUT */
 
+    .mainContainer {
+        max-width: 1110px;
+    }
+
+    .mainSmallGrid {
+        margin-bottom:1.25em;
+    }
+
+    .mainBigGrid {
+        gap: 20px;
+    }
+
+    .mainSubtextContainer {
+        padding: 2em;
+    }
 }
