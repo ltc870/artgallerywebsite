@@ -15,15 +15,15 @@ const Header = (props) => {
             <picture>
                 <source
                     media="(min-width: 1024px)"
-                    srcSet={`${desktopHeroImage}, ${desktopHeroImage2}`}
+                    srcSet={`${desktopHeroImage}, ${desktopHeroImage2} 2x`}
                 />
                 <source
                     media="(min-width: 768px)"
-                    srcSet={`${tabletHeroImage}, ${tabletHeroImage2}`}
+                    srcSet={`${tabletHeroImage}, ${tabletHeroImage2} 2x`}
                 />
                 <img
                     className={classes.headerHeroImage}
-                    srcSet={`${mobileHeroImage}, ${mobileHeroImage2}`}
+                    srcSet={`${mobileHeroImage}, ${mobileHeroImage2} 2x`}
                     src={mobileHeroImage}
                     alt="A man and a woman looking at a painting of an elderly woman."
                 />
