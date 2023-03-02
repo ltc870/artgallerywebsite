@@ -12,7 +12,7 @@ const Header = (props) => {
 
     return (
         <header className={classes.header}>
-            <picture>
+            <picture className={classes.headerPicOne}>
                 <source
                     media="(min-width: 1024px)"
                     srcSet={`${desktopHeroImage}, ${desktopHeroImage2} 2x`}
