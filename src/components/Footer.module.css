@@ -80,5 +80,10 @@
         margin: 0 auto;
         gap: 4em;
     }
+
+    .socialMedia:hover,
+    .socialMedia:focus {
+        color: #D5966C;
+    }
     
 }
