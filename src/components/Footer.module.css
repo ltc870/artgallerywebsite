@@ -60,3 +60,25 @@
    }
 
 }
+
+/*! DESKTOP VIEW */
+
+@media (min-width: 1024px) {
+    /* TYPOGRAPHY */ 
+    .footerText {
+        font-size: 1.125rem;
+    }
+
+    /* LAYOUT */
+
+    .footer {
+        padding: 4em 2.5em;
+    }
+
+    .footerContainer {
+        max-width: 87%;
+        margin: 0 auto;
+        gap: 4em;
+    }
+    
+}
