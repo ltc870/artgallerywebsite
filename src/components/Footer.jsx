@@ -21,7 +21,7 @@ const Footer = (props) => {
             <div className={classes.footerContainer}>
                 <img className={homePageLocation ? classes.lightLogo : classes.darkLogo} 
                      src={homePageLocation ? lightLogo : darkLogo} alt="Footer logo" />
-                <p className={classes.footerText}>
+                <p className={homePageLocation ? classes.footerText : classes.locationFooterText}>
                     The Modern Art Gallery is free to all visitors and open
                     seven days a week from 8am to 9pm. Find us at 99 King
                     Street, Newport, USA.
