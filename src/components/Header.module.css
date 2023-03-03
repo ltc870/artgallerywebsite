@@ -51,29 +51,34 @@
 
     /* LAYOUT */
 
-    .header {
-        display: grid;
-        grid-template-columns: 437px auto;
-        position: relative;
-        margin-bottom: 7em;
+    .headerHeroImage {
+        display: none;
     }
 
-    .headerHeroImage {
-        display: block;
+    .header {
+        background: url("/src/assets/tablet/image-hero.jpg") no-repeat;
     }
 
     .headerContainer {
-        position: absolute;
-        top: 120px;
-        left: 379px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25em;
+        padding-block: 6.25em;
+        padding-bottom: 13em;
+        margin-bottom: 5em;
+        background-image: initial;
+    }
+
+    .headerBox {
+        grid-column: 2;
     }
 
     .headerTitle {
-        margin-bottom: 3.5rem;
+        margin-top: .65em;
     }
 
     .headerText {
-        margin-bottom: 2.5em;
+        margin-bottom: 3.15em;
     }
 }
 
