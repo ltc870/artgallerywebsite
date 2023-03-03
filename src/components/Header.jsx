@@ -33,12 +33,14 @@ const Header = (props) => {
                 <h1 className={classes.headerTitle}>
                     Modern <br /> Art Gallery
                 </h1>
-                <p className={classes.headerText}>
-                    The arts in the collection of the Modern Art Gallery all
-                    started from a spark of inspiration. Will these pieces
-                    inspire you? Visit us and find out.
-                </p>
-                <Button homePageLocation={homePageLocation} />
+                <div>
+                    <p className={classes.headerText}>
+                        The arts in the collection of the Modern Art Gallery all
+                        started from a spark of inspiration. Will these pieces
+                        inspire you? Visit us and find out.
+                    </p>
+                    <Button homePageLocation={homePageLocation} />
+                </div>
             </div>
         </header>
     );
