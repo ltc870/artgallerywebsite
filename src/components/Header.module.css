@@ -75,3 +75,22 @@
         margin-bottom: 2.5em;
     }
 }
+
+/*! DESKTOP VIEW */
+
+@media (min-width: 1024px) {
+    /* LAYOUT */
+
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerTitle {
+        margin-top: 0;
+    }
+
+    .headerText {
+        margin-top: 0; 
+    }
+}
