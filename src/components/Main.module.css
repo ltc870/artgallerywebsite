@@ -188,6 +188,7 @@
 
     .mainContainer {
         max-width: 1110px;
+        padding: 1em 0em;
     }
 
     .mainSmallGrid {
