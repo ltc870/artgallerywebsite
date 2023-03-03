@@ -87,16 +87,46 @@
 @media (min-width: 1024px) {
     /* LAYOUT */
 
+    .header {
+        background: linear-gradient(270deg, #FFFFFF 50%, hsla(0, 0%, 8%, 1) 50%);
+    }
+
     .headerContainer {
-        display: flex;
-        justify-content: space-between;
+        max-width: 1110px;
+        margin: 0 auto;
+        padding-inline: 1.25em;
+        padding-block: 0;
+        padding: 0;
+        gap: 0;
+        display: block;
+    }
+
+    .headerBox {
+       display: flex;
+       background-repeat: no-repeat;
+       padding-block: 11.875rem 18.75rem;
+       margin-bottom: 11.25em;
+       background-image: url("/src/assets/desktop/image-hero.jpg");
+       background-size: contain;
+       background-position: 50% 50%;
+       justify-content: space-between;
+       width: 98.5%;
+       align-items: flex-start;
     }
 
     .headerTitle {
+        mix-blend-mode: difference;
+        color: #FFFFFF;
+        max-width: 28.125rem;
+        font-size: 5.625rem;
+        line-height: 88px;
         margin-top: 0;
     }
 
     .headerText {
-        margin-top: 0; 
+        max-width: 22rem;
+        font-size: 1.375rem;
+        line-height: 32px;
+        margin-top: 0;
     }
 }
