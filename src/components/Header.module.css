@@ -121,6 +121,7 @@
         font-size: 5.625rem;
         line-height: 88px;
         margin-top: 0;
+        margin-left: .10em;
     }
 
     .headerText {
