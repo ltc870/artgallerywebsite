@@ -7,6 +7,7 @@
     text-transform: uppercase;
     line-height: 55px;
     color: #151515;
+    font-weight: 900;
 }
 
 .headerText {
@@ -35,4 +36,42 @@
 
 .headerText {
     margin-bottom: 1.5em;
+}
+
+/*! TABLET VIEW */
+
+@media (min-width: 768px) {
+    /* TYPOGRAPHY */
+
+    .headerTitle {
+        font-size: 4.375rem;
+        line-height: 65px;
+    }
+
+    /* LAYOUT */
+
+    .header {
+        display: grid;
+        grid-template-columns: 437px auto;
+        position: relative;
+        margin-bottom: 7em;
+    }
+
+    .headerHeroImage {
+        display: block;
+    }
+
+    .headerContainer {
+        position: absolute;
+        top: 120px;
+        left: 379px;
+    }
+
+    .headerTitle {
+        margin-bottom: 3.5rem;
+    }
+
+    .headerText {
+        margin-bottom: 2.5em;
+    }
 }
