@@ -33,7 +33,7 @@ const Header = (props) => {
                 <h1 className={classes.headerTitle}>
                     Modern <br /> Art Gallery
                 </h1>
-                <div>
+                <div className={classes.headerTextContainer}>
                     <p className={classes.headerText}>
                         The arts in the collection of the Modern Art Gallery all
                         started from a spark of inspiration. Will these pieces
