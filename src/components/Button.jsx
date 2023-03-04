@@ -20,7 +20,7 @@ const Button = (props) => {
   );
 
   const goToHomePage = (
-    <Link className={classes.link} to="/">
+    <Link className={classes.locationLink} to="/">
       <span>
         <img
           src={leftArrow}
