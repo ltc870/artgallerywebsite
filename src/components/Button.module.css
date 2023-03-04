@@ -1,6 +1,7 @@
 /* TYPOGRAPHY */
 
-.link {
+.link,
+.locationLink {
     text-decoration: none;
 }
 
@@ -16,10 +17,16 @@
 
 /* LAYOUT */
 
-.link {
+.link,
+.locationLink {
     display: flex;
     justify-self: flex-start;
     align-items: flex-start;
+}
+
+.locationLink {
+    position: absolute;
+    top: 0px;
 }
 
 .linkText {
