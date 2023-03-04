@@ -25,7 +25,7 @@ const Map = (props) => {
           </Popup>
         </Marker>
       </MapContainer>
-      <Button className="button" locationPageLocation={locationPageLocation} />
+      <Button locationPageLocation={locationPageLocation} />
     </header>
   );
 };
