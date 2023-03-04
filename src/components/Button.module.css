@@ -40,11 +40,13 @@
     padding: 1.012em 1.20em;
 }
 
-.link:hover .linkText {
+.link:hover .linkText,
+.locationLink:hover .linkText {
     background-color: #D5966C
 }
 
-.link:hover .linkArrow {
+.link:hover .linkArrow,
+.locationLink:hover .linkArrow {
     background-color: #151515;
 }
 
