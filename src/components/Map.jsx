@@ -14,6 +14,7 @@ const Map = (props) => {
         zoom={15}
         scrollWheelZoom={false}
         style={{ filter: "grayscale(100)" }}
+        zoomControl={false}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
