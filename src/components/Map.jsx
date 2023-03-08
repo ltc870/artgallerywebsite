@@ -19,7 +19,6 @@ const Map = (props) => {
         center={[41.48144, -71.31035]}
         zoom={15}
         scrollWheelZoom={false}
-        style={{ filter: "grayscale(100%)" }}
         zoomControl={false}
       >
         <TileLayer
