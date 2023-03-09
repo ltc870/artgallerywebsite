@@ -68,23 +68,27 @@
 @media (min-width: 768px) {
     /* lAYOUT */
 
-   .footerContainer {
+   .footerContainer,
+   .locationFooterContainer {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(3, auto);
         align-items: flex-start;
    } 
 
-   .lightLogo {
+   .lightLogo,
+   .darkLogo {
         margin-right: 3em
    }
 
-   .footerText {
+   .footerText,
+   .locationFooterText {
         margin-top: 0;
         width: 65%;
    }
 
-   .footerSocialMedia {
+   .footerSocialMedia,
+   .locationFooterSocialMedia {
         width: 100%;
         margin-right: 2em;
    }
@@ -95,17 +99,20 @@
 
 @media (min-width: 1024px) {
     /* TYPOGRAPHY */ 
-    .footerText {
+    .footerText,
+    .locationFooterText {
         font-size: 1.125rem;
     }
 
     /* LAYOUT */
 
-    .footer {
+    .footer,
+    .locationFooter {
         padding: 4em 2.5em;
     }
 
-    .footerContainer {
+    .footerContainer,
+    .locationFooterContainer {
         max-width: 1110px;
         margin: 0 auto;
         gap: 4em;
