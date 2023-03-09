@@ -69,6 +69,7 @@
     /* lAYOUT */
 
    .footerContainer {
+        display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(3, auto);
         align-items: flex-start;
