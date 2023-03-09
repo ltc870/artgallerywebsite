@@ -44,3 +44,24 @@
 .mainAddressStreet {
     margin-top: 0;
 }
+
+/*! TABLET VIEW  */
+
+@media(min-width: 768px) {
+    /* TYPOGRAPHY */
+    .mainTitle {
+        font-size: 3.4375rem;
+    }
+
+    /* lAYOUT */
+    .mainContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5em 2em;
+        gap: 10px;
+    }
+
+    .mainTitle {
+        margin-top: 0;
+    }
+}
