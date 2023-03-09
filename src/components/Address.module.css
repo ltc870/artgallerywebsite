@@ -51,6 +51,7 @@
     /* TYPOGRAPHY */
     .mainTitle {
         font-size: 3.4375rem;
+        word-break: normal;
     }
 
     /* lAYOUT */
@@ -63,5 +64,28 @@
 
     .mainTitle {
         margin-top: 0;
+    }
+}
+
+@media(min-width: 1024px) {
+    /* TYPOGRAPHY */
+    .mainTitle {
+        font-size: 4.375rem;
+    }
+
+    .mainAddressStreet {
+        font-size: 2.25rem;
+    }
+
+    .mainAddress {
+        font-size: 1.375rem;
+        line-height: 32px;
+    }
+
+    /* LAYOUT */
+    .mainContainer {
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 5em 0em;
     }
 }
