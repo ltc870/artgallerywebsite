@@ -33,7 +33,7 @@
 .linkText {
     background-color: #151515;
     color: #FFFFFF;
-    padding: 1em 1.5em;
+    padding: 1em 1.5em 1.02em;
 }
 
 .linkArrow {
@@ -49,6 +49,18 @@
 .link:hover .linkArrow,
 .locationLink:hover .linkArrow {
     background-color: #151515;
+}
+
+@media(min-width: 768px) {
+    .locationLink {
+        left: 30px
+    }
+}
+
+@media(min-width: 1024px) {
+    .locationLink {
+        left: 100px;
+    }
 }
 
 
