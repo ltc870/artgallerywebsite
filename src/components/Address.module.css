@@ -63,6 +63,11 @@
 
     .mainTitle {
         margin-top: 0;
+        line-height: 50px;
+    }
+
+    .nextLine {
+        display: block;
     }
 }
 
@@ -70,6 +75,7 @@
     /* TYPOGRAPHY */
     .mainTitle {
         font-size: 4.375rem;
+        line-height: 70px;
     }
 
     .mainAddressStreet {
