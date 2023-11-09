@@ -7,7 +7,7 @@ const Button = (props) => {
   const { homePageLocation } = props;
 
   const goToLocationPage = (
-    <Link className={classes.link} to="/location">
+    <Link className={classes.link} to="/location/">
       <span className={classes.linkText}>OUR LOCATION</span>
       <span>
         <img
@@ -20,7 +20,7 @@ const Button = (props) => {
   );
 
   const goToHomePage = (
-    <Link className={classes.locationLink} to="/artgallerywebsite">
+    <Link className={classes.locationLink} to="/artgallerywebsite/">
       <span>
         <img
           src={leftArrow}
